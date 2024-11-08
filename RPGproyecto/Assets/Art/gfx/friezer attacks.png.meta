@@ -1,190 +1,205 @@
 fileFormatVersion: 2
-guid: 72722ac419e7ac74a9f85595c254e6e4
+guid: 5693119958c26094cbfd3e0c91ed36d6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 813116459664862960
-    second: fireza_0
+      213: 6443956909719478715
+    second: friezer attacks_0
   - first:
-      213: -7399804510093434474
-    second: fireza_1
+      213: -3261088238868515197
+    second: friezer attacks_1
   - first:
-      213: 3157621826990808553
-    second: fireza_2
+      213: 7786802055415837709
+    second: friezer attacks_2
   - first:
-      213: -7197992793414214565
-    second: fireza_3
+      213: 6175950393578631174
+    second: friezer attacks_3
   - first:
-      213: -125333039840505975
-    second: fireza_4
+      213: -2915662168296404206
+    second: friezer attacks_4
   - first:
-      213: 8150139985541877415
-    second: fireza_5
+      213: 7097946333568826458
+    second: friezer attacks_5
   - first:
-      213: -3723718756784672918
-    second: fireza_6
+      213: -9086371644141012600
+    second: friezer attacks_6
   - first:
-      213: -5156364970953552570
-    second: fireza_7
+      213: 6620144672706124456
+    second: friezer attacks_7
   - first:
-      213: 6069464658514102870
-    second: fireza_8
+      213: -7559816725196778172
+    second: friezer attacks_8
   - first:
-      213: -1152596588941436048
-    second: fireza_9
+      213: -3457589279493262824
+    second: friezer attacks_9
   - first:
-      213: 3839492796633785709
-    second: fireza_10
+      213: 746040987741145244
+    second: friezer attacks_10
   - first:
-      213: 6559270930450614273
-    second: fireza_11
+      213: -4109568552298893900
+    second: friezer attacks_11
   - first:
-      213: 4472152326185092272
-    second: fireza_12
+      213: -7080408946622042591
+    second: friezer attacks_12
   - first:
-      213: 8008931609780957242
-    second: fireza_13
+      213: 5560224464777323965
+    second: friezer attacks_13
   - first:
-      213: 3826092708297569458
-    second: fireza_14
+      213: 618512200623194673
+    second: friezer attacks_14
   - first:
-      213: 3122302015576895070
-    second: fireza_15
+      213: -8350147130577484838
+    second: friezer attacks_15
   - first:
-      213: 2946128673724540269
-    second: fireza_16
+      213: 3923381687290725547
+    second: friezer attacks_16
   - first:
-      213: 4300307168557175116
-    second: fireza_17
+      213: 2337676445714977293
+    second: friezer attacks_17
   - first:
-      213: -3131075147420982068
-    second: fireza_18
+      213: 3941213764998843175
+    second: friezer attacks_18
   - first:
-      213: -6261243220877048590
-    second: fireza_19
+      213: -7275733673370666790
+    second: friezer attacks_19
   - first:
-      213: -6724753152891450188
-    second: fireza_20
+      213: 3963219920518109682
+    second: friezer attacks_20
   - first:
-      213: -699673191826810090
-    second: fireza_21
+      213: 265240967815407098
+    second: friezer attacks_21
   - first:
-      213: 2188828062780832340
-    second: fireza_22
+      213: 5346408219732982929
+    second: friezer attacks_22
   - first:
-      213: 3220207811156212220
-    second: fireza_23
+      213: -570532795083678738
+    second: friezer attacks_23
   - first:
-      213: 2794823744261027711
-    second: fireza_24
+      213: -6013834400292514044
+    second: friezer attacks_24
   - first:
-      213: -4769475535255463371
-    second: fireza_25
+      213: -3866707354729899143
+    second: friezer attacks_25
   - first:
-      213: 4582603974279214922
-    second: fireza_26
+      213: -5994324934105252875
+    second: friezer attacks_26
   - first:
-      213: 7652948694516556696
-    second: fireza_27
+      213: 2256130142340014781
+    second: friezer attacks_27
   - first:
-      213: -8708117272835206783
-    second: fireza_28
+      213: 8195768863494203262
+    second: friezer attacks_28
   - first:
-      213: 635501579103333703
-    second: fireza_29
+      213: -8788763679020591677
+    second: friezer attacks_29
   - first:
-      213: 7169625873218486560
-    second: fireza_30
+      213: 8342285574864121261
+    second: friezer attacks_30
   - first:
-      213: 5874814824744688297
-    second: fireza_31
+      213: -3980147043550797460
+    second: friezer attacks_31
   - first:
-      213: -1996499089210508990
-    second: fireza_32
+      213: -7376931887896904630
+    second: friezer attacks_32
   - first:
-      213: 7083715310863651452
-    second: fireza_33
+      213: -233132823929953010
+    second: friezer attacks_33
   - first:
-      213: -6976848934113791650
-    second: fireza_34
+      213: 7574236575471520198
+    second: friezer attacks_34
   - first:
-      213: 1051480987331549128
-    second: fireza_35
+      213: -5406655064426637331
+    second: friezer attacks_35
   - first:
-      213: 7202134728512979383
-    second: fireza_36
+      213: 3811902516860840400
+    second: friezer attacks_36
   - first:
-      213: 2052394154750490596
-    second: fireza_37
+      213: -4318646943534505391
+    second: friezer attacks_37
   - first:
-      213: -3090718306598710321
-    second: fireza_38
+      213: 4712240487318908497
+    second: friezer attacks_38
   - first:
-      213: -4212820712836182224
-    second: fireza_39
+      213: 1585504697570882282
+    second: friezer attacks_39
   - first:
-      213: 4082834622662333796
-    second: fireza_40
+      213: -6732153142908853396
+    second: friezer attacks_40
   - first:
-      213: -7357724826853721877
-    second: fireza_41
+      213: 3578518108703201341
+    second: friezer attacks_41
   - first:
-      213: -2972865715053216675
-    second: fireza_42
+      213: 2168172127600758718
+    second: friezer attacks_42
   - first:
-      213: 6851826050126510340
-    second: fireza_43
+      213: -4593857958651464387
+    second: friezer attacks_43
   - first:
-      213: 500167857017697125
-    second: fireza_44
+      213: 997128272711837297
+    second: friezer attacks_44
   - first:
-      213: 6741196738374436883
-    second: fireza_45
+      213: -9131169569501636348
+    second: friezer attacks_45
   - first:
-      213: -2202786191747713146
-    second: fireza_46
+      213: 6806960311770463379
+    second: friezer attacks_46
   - first:
-      213: 4069153623221857958
-    second: fireza_47
+      213: -6646543432872401980
+    second: friezer attacks_47
   - first:
-      213: -3826281466012193525
-    second: fireza_48
+      213: -2454233638566934716
+    second: friezer attacks_48
   - first:
-      213: 1541468613107881271
-    second: fireza_49
+      213: -2900151991435189288
+    second: friezer attacks_49
   - first:
-      213: 2504893425902346962
-    second: fireza_50
+      213: -188762468381723132
+    second: friezer attacks_50
   - first:
-      213: -2702138802686118370
-    second: fireza_51
+      213: -7926286634549377870
+    second: friezer attacks_51
   - first:
-      213: 4914497805161260645
-    second: fireza_52
+      213: -6514100235625436219
+    second: friezer attacks_52
   - first:
-      213: -1560419775010382860
-    second: fireza_53
+      213: 4956678408756983035
+    second: friezer attacks_53
   - first:
-      213: -8941793284540604064
-    second: fireza_54
+      213: -3669435120283226469
+    second: friezer attacks_54
   - first:
-      213: 9165077603356471984
-    second: fireza_55
+      213: -5648597482533884801
+    second: friezer attacks_55
   - first:
-      213: -3469475310403957074
-    second: fireza_56
+      213: -3187789228325782438
+    second: friezer attacks_56
   - first:
-      213: 3568630861926851899
-    second: fireza_57
+      213: 3384303428852482345
+    second: friezer attacks_57
   - first:
-      213: 8004947675308910533
-    second: fireza_58
+      213: -9195100066679414539
+    second: friezer attacks_58
   - first:
-      213: 4789683296903655825
-    second: fireza_59
+      213: -3834855439374389843
+    second: friezer attacks_59
   - first:
-      213: 2644480693374310272
-    second: fireza_60
+      213: 337611703400706411
+    second: friezer attacks_60
+  - first:
+      213: 2537295146503465915
+    second: friezer attacks_61
+  - first:
+      213: -6590824815851147906
+    second: friezer attacks_62
+  - first:
+      213: -6910620043445322871
+    second: friezer attacks_63
+  - first:
+      213: -8862659074132641269
+    second: friezer attacks_64
+  - first:
+      213: -6367449225392960529
+    second: friezer attacks_65
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -270,11 +285,95 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fireza_9
+      name: friezer attacks_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 116
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386b90556894eb2d0800000000000000
+      internalID: -3261088238868515197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: friezer attacks_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 116
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04b7519637401c60800000000000000
+      internalID: 7786802055415837709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: friezer attacks_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 115
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bc5ada4bc7987d0800000000000000
+      internalID: -2915662168296404206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: friezer attacks_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 118
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cf7277598f08260800000000000000
+      internalID: 7097946333568826458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: friezer attacks_14
       rect:
         serializedVersion: 2
         x: 16
-        y: 85
+        y: 83
         width: 16
         height: 32
       alignment: 0
@@ -284,19 +383,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07b91d252872100f0800000000000000
-      internalID: -1152596588941436048
+      spriteID: 1320467c195659800800000000000000
+      internalID: 618512200623194673
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_10
+      name: friezer attacks_15
       rect:
         serializedVersion: 2
-        x: 35
-        y: 86
-        width: 16
+        x: 33
+        y: 83
+        width: 19
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -305,19 +404,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6527052b5e984530800000000000000
-      internalID: 3839492796633785709
+      spriteID: ad38eabfc615e1c80800000000000000
+      internalID: -8350147130577484838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_12
+      name: friezer attacks_17
       rect:
         serializedVersion: 2
-        x: 63
-        y: 86
-        width: 16
+        x: 64
+        y: 83
+        width: 15
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -326,18 +425,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b403bf98d6401e30800000000000000
-      internalID: 4472152326185092272
+      spriteID: d0293a28758117020800000000000000
+      internalID: 2337676445714977293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_13
+      name: friezer attacks_18
       rect:
         serializedVersion: 2
         x: 83
-        y: 86
+        y: 83
         width: 16
         height: 32
       alignment: 0
@@ -347,18 +446,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a30346fadd0752f60800000000000000
-      internalID: 8008931609780957242
+      spriteID: 72bc2aea90102b630800000000000000
+      internalID: 3941213764998843175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_14
+      name: friezer attacks_19
       rect:
         serializedVersion: 2
         x: 102
-        y: 86
+        y: 83
         width: 16
         height: 32
       alignment: 0
@@ -368,17 +467,38 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b4f9c3fb03091530800000000000000
-      internalID: 3826092708297569458
+      spriteID: ad8b466c5c6670b90800000000000000
+      internalID: -7275733673370666790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_15
+      name: friezer attacks_20
       rect:
         serializedVersion: 2
         x: 121
+        y: 83
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9db39058f200730800000000000000
+      internalID: 3963219920518109682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: friezer attacks_28
+      rect:
+        serializedVersion: 2
+        x: 250
         y: 87
         width: 16
         height: 32
@@ -389,60 +509,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5e62f7f325a45b20800000000000000
-      internalID: 3122302015576895070
+      spriteID: e7767c9bb583db170800000000000000
+      internalID: 8195768863494203262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_17
-      rect:
-        serializedVersion: 2
-        x: 172
-        y: 55
-        width: 63
-        height: 63
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c419ae6f592cdab30800000000000000
-      internalID: 4300307168557175116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fireza_23
-      rect:
-        serializedVersion: 2
-        x: 250
-        y: 90
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf977ee51f970bc20800000000000000
-      internalID: 3220207811156212220
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fireza_24
+      name: friezer attacks_29
       rect:
         serializedVersion: 2
         x: 269
-        y: 90
+        y: 87
         width: 16
         height: 32
       alignment: 0
@@ -452,20 +530,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f777186436539c620800000000000000
-      internalID: 2794823744261027711
+      spriteID: 3c55f11bff9080680800000000000000
+      internalID: -8788763679020591677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_25
+      name: friezer attacks_30
       rect:
         serializedVersion: 2
         x: 288
         y: 90
         width: 16
-        height: 32
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -473,19 +551,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53a9e2c354b6fcdb0800000000000000
-      internalID: -4769475535255463371
+      spriteID: dad24a0f780c5c370800000000000000
+      internalID: 8342285574864121261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_26
+      name: friezer attacks_31
       rect:
         serializedVersion: 2
         x: 16
         y: 51
-        width: 16
+        width: 17
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -494,19 +572,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a47b431f80ea89f30800000000000000
-      internalID: 4582603974279214922
+      spriteID: c6165530a5da3c8c0800000000000000
+      internalID: -3980147043550797460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_27
+      name: friezer attacks_32
       rect:
         serializedVersion: 2
         x: 34
         y: 51
-        width: 16
+        width: 18
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -515,14 +593,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 893e2f46a4cb43a60800000000000000
-      internalID: 7652948694516556696
+      spriteID: a4c37a9588fdf9990800000000000000
+      internalID: -7376931887896904630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_29
+      name: friezer attacks_34
       rect:
         serializedVersion: 2
         x: 64
@@ -536,17 +614,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74d67a4b151c1d800800000000000000
-      internalID: 635501579103333703
+      spriteID: 6c940cd09081d1960800000000000000
+      internalID: 7574236575471520198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_30
+      name: friezer attacks_35
       rect:
         serializedVersion: 2
-        x: 83
+        x: 81
         y: 51
         width: 16
         height: 32
@@ -557,14 +635,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02143a1deb0af7360800000000000000
-      internalID: 7169625873218486560
+      spriteID: de798c55dd3b7f4b0800000000000000
+      internalID: -5406655064426637331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_31
+      name: friezer attacks_36
       rect:
         serializedVersion: 2
         x: 101
@@ -578,17 +656,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9aa1b1ef4f8878150800000000000000
-      internalID: 5874814824744688297
+      spriteID: 0d968eb842996e430800000000000000
+      internalID: 3811902516860840400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_32
+      name: friezer attacks_37
       rect:
         serializedVersion: 2
-        x: 120
+        x: 119
         y: 50
         width: 16
         height: 32
@@ -599,18 +677,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 249773108a20b44e0800000000000000
-      internalID: -1996499089210508990
+      spriteID: 152ac4c6c751114c0800000000000000
+      internalID: -4318646943534505391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_39
+      name: friezer attacks_39
       rect:
         serializedVersion: 2
-        x: 254
-        y: 55
+        x: 172
+        y: 54
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2fc604f18d00610800000000000000
+      internalID: 1585504697570882282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: friezer attacks_45
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 52
         width: 16
         height: 32
       alignment: 0
@@ -620,18 +719,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03fcdf4d1ed0985c0800000000000000
-      internalID: -4212820712836182224
+      spriteID: 4099ff1d7a1974180800000000000000
+      internalID: -9131169569501636348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_42
+      name: friezer attacks_46
       rect:
         serializedVersion: 2
         x: 273
-        y: 55
+        y: 52
         width: 16
         height: 32
       alignment: 0
@@ -641,14 +740,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5cb05112624eb6d0800000000000000
-      internalID: -2972865715053216675
+      spriteID: 39cb247b65e277e50800000000000000
+      internalID: 6806960311770463379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_43
+      name: friezer attacks_48
       rect:
         serializedVersion: 2
         x: 16
@@ -662,38 +761,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 409fe847d73961f50800000000000000
-      internalID: 6851826050126510340
+      spriteID: 4474761428fc0fdd0800000000000000
+      internalID: -2454233638566934716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_44
+      name: friezer attacks_49
       rect:
         serializedVersion: 2
         x: 35
-        y: 17
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 563bb951404f0f600800000000000000
-      internalID: 500167857017697125
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fireza_45
-      rect:
-        serializedVersion: 2
-        x: 54
         y: 16
         width: 16
         height: 32
@@ -704,14 +782,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31884d797ba8d8d50800000000000000
-      internalID: 6741196738374436883
+      spriteID: 8d32dd3212790c7d0800000000000000
+      internalID: -2900151991435189288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_47
+      name: friezer attacks_50
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 15
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4067e2df881616df0800000000000000
+      internalID: -188762468381723132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: friezer attacks_51
       rect:
         serializedVersion: 2
         x: 73
@@ -725,14 +824,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6aee1a839a9887830800000000000000
-      internalID: 4069153623221857958
+      spriteID: 2b402c71d4c200290800000000000000
+      internalID: -7926286634549377870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_48
+      name: friezer attacks_52
       rect:
         serializedVersion: 2
         x: 92
@@ -746,38 +845,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0daea7774156eac0800000000000000
-      internalID: -3826281466012193525
+      spriteID: 5cbe14059544995a0800000000000000
+      internalID: -6514100235625436219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_49
+      name: friezer attacks_53
       rect:
         serializedVersion: 2
         x: 111
-        y: 15
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73595bc5985646510800000000000000
-      internalID: 1541468613107881271
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fireza_50
-      rect:
-        serializedVersion: 2
-        x: 130
         y: 16
         width: 16
         height: 32
@@ -788,14 +866,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d2ee13ac4b23c220800000000000000
-      internalID: 2504893425902346962
+      spriteID: bf4fecb40c8a9c440800000000000000
+      internalID: 4956678408756983035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_51
+      name: friezer attacks_55
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 15
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ce66664862c91b0800000000000000
+      internalID: -5648597482533884801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: friezer attacks_56
       rect:
         serializedVersion: 2
         x: 149
@@ -809,18 +908,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1638145313108ad0800000000000000
-      internalID: -2702138802686118370
+      spriteID: a5c33d22692b2c3d0800000000000000
+      internalID: -3187789228325782438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_53
+      name: friezer attacks_59
       rect:
         serializedVersion: 2
         x: 178
-        y: 17
+        y: 16
         width: 20
         height: 32
       alignment: 0
@@ -830,18 +929,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fbd20a6b76485ae0800000000000000
-      internalID: -1560419775010382860
+      spriteID: dad6d1bbb4bd7cac0800000000000000
+      internalID: -3834855439374389843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_55
+      name: friezer attacks_60
       rect:
         serializedVersion: 2
         x: 214
-        y: 17
+        y: 16
         width: 20
         height: 32
       alignment: 0
@@ -851,14 +950,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b273f68585e03f70800000000000000
-      internalID: 9165077603356471984
+      spriteID: b61b6353e007fa400800000000000000
+      internalID: 337611703400706411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_57
+      name: friezer attacks_62
       rect:
         serializedVersion: 2
         x: 249
@@ -872,14 +971,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3565ab8cd2568130800000000000000
-      internalID: 3568630861926851899
+      spriteID: e7dec5aefbfa884a0800000000000000
+      internalID: -6590824815851147906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireza_60
+      name: friezer attacks_65
       rect:
         serializedVersion: 2
         x: 281
@@ -893,8 +992,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08754f7fd2513b420800000000000000
-      internalID: 2644480693374310272
+      spriteID: febcd1b6aa642a7a0800000000000000
+      internalID: -6367449225392960529
       vertices: []
       indices: 
       edges: []
