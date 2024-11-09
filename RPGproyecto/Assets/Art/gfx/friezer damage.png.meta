@@ -1,0 +1,995 @@
+fileFormatVersion: 2
+guid: ac84a31c8b61a364c826d1571fe3b564
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 56405453324043922
+    second: pixil-frame-0 (5)_0
+  - first:
+      213: 6087526378415629942
+    second: pixil-frame-0 (5)_1
+  - first:
+      213: -4689668744186626244
+    second: pixil-frame-0 (5)_2
+  - first:
+      213: 6966810004660475228
+    second: pixil-frame-0 (5)_3
+  - first:
+      213: 6486075348055788688
+    second: pixil-frame-0 (5)_4
+  - first:
+      213: -652788208821312500
+    second: pixil-frame-0 (5)_5
+  - first:
+      213: -4523729567633144182
+    second: pixil-frame-0 (5)_6
+  - first:
+      213: -6180076158510596205
+    second: pixil-frame-0 (5)_7
+  - first:
+      213: 4682514215103427416
+    second: pixil-frame-0 (5)_8
+  - first:
+      213: -4908265335211728281
+    second: pixil-frame-0 (5)_9
+  - first:
+      213: -3463066278865466781
+    second: pixil-frame-0 (5)_10
+  - first:
+      213: 4138296464737293487
+    second: pixil-frame-0 (5)_11
+  - first:
+      213: -3077814324364766312
+    second: pixil-frame-0 (5)_12
+  - first:
+      213: -373259908554256853
+    second: pixil-frame-0 (5)_13
+  - first:
+      213: -6039126586938642535
+    second: pixil-frame-0 (5)_14
+  - first:
+      213: -2562368109449056388
+    second: pixil-frame-0 (5)_15
+  - first:
+      213: 5125479625193256219
+    second: pixil-frame-0 (5)_16
+  - first:
+      213: -693285732222850290
+    second: pixil-frame-0 (5)_17
+  - first:
+      213: 4859176784998014753
+    second: pixil-frame-0 (5)_18
+  - first:
+      213: -7750308402535025867
+    second: pixil-frame-0 (5)_19
+  - first:
+      213: -2444647245261347630
+    second: pixil-frame-0 (5)_20
+  - first:
+      213: -4160104555628224231
+    second: pixil-frame-0 (5)_21
+  - first:
+      213: 5916975516466670658
+    second: pixil-frame-0 (5)_22
+  - first:
+      213: 4970484520681308569
+    second: pixil-frame-0 (5)_23
+  - first:
+      213: -1182493091520759929
+    second: pixil-frame-0 (5)_24
+  - first:
+      213: 6919634060670490554
+    second: pixil-frame-0 (5)_25
+  - first:
+      213: 2228604214948277506
+    second: pixil-frame-0 (5)_26
+  - first:
+      213: 3684887960310998202
+    second: pixil-frame-0 (5)_27
+  - first:
+      213: -1783845566381833780
+    second: pixil-frame-0 (5)_28
+  - first:
+      213: 4612475724380327585
+    second: pixil-frame-0 (5)_29
+  - first:
+      213: 5629469416053364558
+    second: pixil-frame-0 (5)_30
+  - first:
+      213: 3317133945226113770
+    second: pixil-frame-0 (5)_31
+  - first:
+      213: -3508825117235765115
+    second: pixil-frame-0 (5)_32
+  - first:
+      213: 323171820660566079
+    second: pixil-frame-0 (5)_33
+  - first:
+      213: -806039977137986039
+    second: pixil-frame-0 (5)_34
+  - first:
+      213: -6915694817611047942
+    second: pixil-frame-0 (5)_35
+  - first:
+      213: -1635959801196206148
+    second: pixil-frame-0 (5)_36
+  - first:
+      213: 6549923305946235945
+    second: pixil-frame-0 (5)_37
+  - first:
+      213: -4220038649433819248
+    second: pixil-frame-0 (5)_38
+  - first:
+      213: 8409397518863677882
+    second: pixil-frame-0 (5)_39
+  - first:
+      213: -3706449315783262355
+    second: pixil-frame-0 (5)_40
+  - first:
+      213: 6652509102192918508
+    second: pixil-frame-0 (5)_41
+  - first:
+      213: 4074872567430175787
+    second: pixil-frame-0 (5)_42
+  - first:
+      213: 8939347986046547170
+    second: pixil-frame-0 (5)_43
+  - first:
+      213: -8482708356435853209
+    second: pixil-frame-0 (5)_44
+  - first:
+      213: 6836294046991538109
+    second: pixil-frame-0 (5)_45
+  - first:
+      213: 6406162093795961669
+    second: pixil-frame-0 (5)_46
+  - first:
+      213: 1820442623361708592
+    second: pixil-frame-0 (5)_47
+  - first:
+      213: 7838635990323169598
+    second: pixil-frame-0 (5)_48
+  - first:
+      213: -7111545768150132080
+    second: pixil-frame-0 (5)_49
+  - first:
+      213: -6670654346928146164
+    second: pixil-frame-0 (5)_50
+  - first:
+      213: 440656399390074236
+    second: pixil-frame-0 (5)_51
+  - first:
+      213: -3282804587820724552
+    second: pixil-frame-0 (5)_52
+  - first:
+      213: -5859447385125205122
+    second: pixil-frame-0 (5)_53
+  - first:
+      213: 470920337961683313
+    second: pixil-frame-0 (5)_54
+  - first:
+      213: 7479311015069101057
+    second: pixil-frame-0 (5)_55
+  - first:
+      213: 6350033268192260628
+    second: pixil-frame-0 (5)_56
+  - first:
+      213: 2041326088452420119
+    second: pixil-frame-0 (5)_57
+  - first:
+      213: 3551777142624395283
+    second: pixil-frame-0 (5)_58
+  - first:
+      213: -4065103599952351882
+    second: pixil-frame-0 (5)_59
+  - first:
+      213: -3039596865898735740
+    second: pixil-frame-0 (5)_60
+  - first:
+      213: 2877062636271582374
+    second: pixil-frame-0 (5)_61
+  - first:
+      213: 5949347579817886584
+    second: pixil-frame-0 (5)_62
+  - first:
+      213: -1847222594143624023
+    second: pixil-frame-0 (5)_63
+  - first:
+      213: -8969436886343030944
+    second: pixil-frame-0 (5)_64
+  - first:
+      213: -8307259406434418099
+    second: pixil-frame-0 (5)_65
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 115
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676a842fcfc3b7450800000000000000
+      internalID: 6087526378415629942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 115
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ff084cf13faeeb0800000000000000
+      internalID: -4689668744186626244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 115
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c88431a2b230a50800000000000000
+      internalID: 6486075348055788688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_6
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 118
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a868b4d0deb7831c0800000000000000
+      internalID: -4523729567633144182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_57
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 16
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712b1f4134f345c10800000000000000
+      internalID: 2041326088452420119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_59
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 17
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67dadad40d9d597c0800000000000000
+      internalID: -4065103599952351882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 87
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29646c0067468c000800000000000000
+      internalID: 56405453324043922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_3
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 85
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55dc6999c41fa060800000000000000
+      internalID: 6966810004660475228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 86
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0464ab2594d0f6f0800000000000000
+      internalID: -652788208821312500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_7
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 87
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f7d1f2a75fb3aa0800000000000000
+      internalID: -6180076158510596205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_8
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 86
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853f4fe9ed1abf040800000000000000
+      internalID: 4682514215103427416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_9
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 87
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7626757cea652ebb0800000000000000
+      internalID: -4908265335211728281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_10
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 90
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a07964197b0ffc0800000000000000
+      internalID: -3463066278865466781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_11
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 90
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4dbe385be2e6930800000000000000
+      internalID: 4138296464737293487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_12
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 90
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89311afcd286945d0800000000000000
+      internalID: -3077814324364766312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 55
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e8abd371ae1daf0800000000000000
+      internalID: -373259908554256853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_14
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 55
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fa7e7ad56b03ca0800000000000000
+      internalID: -6039126586938642535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_15
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 17
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fef7cc7c3a07cd0800000000000000
+      internalID: -2562368109449056388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_16
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 17
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15752b209c512740800000000000000
+      internalID: 5125479625193256219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_17
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 17
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ba20bbc44f066f0800000000000000
+      internalID: -693285732222850290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_18
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 16
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f91aa7a834f6340800000000000000
+      internalID: 4859176784998014753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_19
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 16
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533bc2f129f517490800000000000000
+      internalID: -7750308402535025867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_20
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 16
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d46f01684ed21ed0800000000000000
+      internalID: -2444647245261347630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_21
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 16
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911ab45a2f65446c0800000000000000
+      internalID: -4160104555628224231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_22
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 16
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cedabf1e15d1250800000000000000
+      internalID: 5916975516466670658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_23
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 16
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99189c83655baf440800000000000000
+      internalID: 4970484520681308569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 16
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7873d826cc0f69fe0800000000000000
+      internalID: -1182493091520759929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 51
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab755f1348a770060800000000000000
+      internalID: 6919634060670490554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_26
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 52
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d2ee0d9b79dee10800000000000000
+      internalID: 2228604214948277506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_27
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 51
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab46377931a532330800000000000000
+      internalID: 3684887960310998202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_28
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 51
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1c7a998e18e37e0800000000000000
+      internalID: -1783845566381833780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_29
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 50
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae4dcebb3ec20040800000000000000
+      internalID: 4612475724380327585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-0 (5)_30
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 50
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4759c19b94ef1e40800000000000000
+      internalID: 5629469416053364558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
