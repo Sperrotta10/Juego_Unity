@@ -4,9 +4,18 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public int health = 100; // Salud del enemigo
+    public int health; // Salud del enemigo
+    public string enemyName;
+    public int baseAttack;
 
-    // Delegado para el evento OnDeath
+    void Start (){
+
+    }
+
+    void Update () {
+
+    }
+
     public delegate void DeathHandler(GameObject enemy);
     public event DeathHandler OnDeath; // Evento que se invocará al morir
 
@@ -25,3 +34,4 @@ public class Enemy : MonoBehaviour
         Destroy(gameObject); // Destruye el objeto del enemigo
     }
 }
+
