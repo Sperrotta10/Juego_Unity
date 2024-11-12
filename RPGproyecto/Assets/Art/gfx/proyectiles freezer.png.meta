@@ -1,0 +1,854 @@
+fileFormatVersion: 2
+guid: 0f8f21781a47a0547b18da9617a67d74
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9164964998514424191
+    second: proyectiles freezer_0
+  - first:
+      213: 2338037378511740885
+    second: proyectiles freezer_1
+  - first:
+      213: -86716658410409590
+    second: proyectiles freezer_2
+  - first:
+      213: -8316573532507456254
+    second: proyectiles freezer_3
+  - first:
+      213: 113285848316706859
+    second: proyectiles freezer_4
+  - first:
+      213: -3611121641417283756
+    second: proyectiles freezer_5
+  - first:
+      213: -5978646213252380893
+    second: proyectiles freezer_6
+  - first:
+      213: -870311477661234738
+    second: proyectiles freezer_7
+  - first:
+      213: -3540291409712950848
+    second: proyectiles freezer_8
+  - first:
+      213: -3393117525787135373
+    second: proyectiles freezer_9
+  - first:
+      213: 1774882399576031740
+    second: proyectiles freezer_10
+  - first:
+      213: -2300314357582576776
+    second: proyectiles freezer_11
+  - first:
+      213: -5178490206261475441
+    second: proyectiles freezer_12
+  - first:
+      213: -3297617952351745520
+    second: proyectiles freezer_13
+  - first:
+      213: 8993141683824476166
+    second: 1
+  - first:
+      213: 8027969803762495398
+    second: proyectiles freezer_15
+  - first:
+      213: 8662203095157834929
+    second: 2
+  - first:
+      213: -6559634195013804825
+    second: 3
+  - first:
+      213: -47224306534426003
+    second: 4
+  - first:
+      213: 4204415850728244656
+    second: proyectiles freezer_19
+  - first:
+      213: 8354212761194071393
+    second: 5
+  - first:
+      213: -9016165631189359523
+    second: 6
+  - first:
+      213: 7740510207120964617
+    second: proyectiles freezer_22
+  - first:
+      213: 6732287416177093014
+    second: 7
+  - first:
+      213: -5572324334021057068
+    second: proyectiles freezer_24
+  - first:
+      213: -2285485933109482737
+    second: proyectiles freezer_25
+  - first:
+      213: 3445178783459287583
+    second: proyectiles freezer_26
+  - first:
+      213: -4805165433721919028
+    second: proyectiles freezer_27
+  - first:
+      213: -2459213644597536109
+    second: proyectiles freezer_28
+  - first:
+      213: -94733279324388833
+    second: proyectiles freezer_29
+  - first:
+      213: 9033599606404014821
+    second: proyectiles freezer_30
+  - first:
+      213: 450434745511268334
+    second: proyectiles freezer_31
+  - first:
+      213: -699406124722678720
+    second: proyectiles freezer_32
+  - first:
+      213: 7893296556425627768
+    second: proyectiles freezer_33
+  - first:
+      213: 5696555555573092072
+    second: proyectiles freezer_34
+  - first:
+      213: 7575114944587367760
+    second: proyectiles freezer_35
+  - first:
+      213: -2468393377548696735
+    second: proyectiles freezer_36
+  - first:
+      213: -4770287319225127249
+    second: proyectiles freezer_37
+  - first:
+      213: 348689866481878204
+    second: proyectiles freezer_38
+  - first:
+      213: -4721940840035704721
+    second: proyectiles freezer_39
+  - first:
+      213: -2153711735194074481
+    second: proyectiles freezer_40
+  - first:
+      213: -572311240431841444
+    second: proyectiles freezer_41
+  - first:
+      213: -5392646606802525285
+    second: proyectiles freezer_42
+  - first:
+      213: 9066716705149195814
+    second: proyectiles freezer_43
+  - first:
+      213: -8412409042019577392
+    second: proyectiles freezer_44
+  - first:
+      213: 5625541644645134416
+    second: proyectiles freezer_45
+  - first:
+      213: -1719804038985838890
+    second: proyectiles freezer_46
+  - first:
+      213: -5901816519076889326
+    second: proyectiles freezer_47
+  - first:
+      213: 8272944078391004299
+    second: proyectiles freezer_48
+  - first:
+      213: -3433382196367299810
+    second: proyectiles freezer_49
+  - first:
+      213: -2093861026730445496
+    second: proyectiles freezer_50
+  - first:
+      213: -3220231004766113751
+    second: proyectiles freezer_51
+  - first:
+      213: 5361500902316670581
+    second: proyectiles freezer_52
+  - first:
+      213: -4802139360840492209
+    second: proyectiles freezer_53
+  - first:
+      213: 1443149669814221021
+    second: proyectiles freezer_54
+  - first:
+      213: 380750957680486082
+    second: proyectiles freezer_55
+  - first:
+      213: 2239259729038650953
+    second: proyectiles freezer_56
+  - first:
+      213: -7279887553570387698
+    second: proyectiles freezer_57
+  - first:
+      213: -1782252118484276125
+    second: proyectiles freezer_58
+  - first:
+      213: 3377594125271652437
+    second: proyectiles freezer_59
+  - first:
+      213: 553422695923275168
+    second: proyectiles freezer_60
+  - first:
+      213: 5706148196443417041
+    second: proyectiles freezer_61
+  - first:
+      213: 545209117562917417
+    second: proyectiles freezer_62
+  - first:
+      213: -604087841529926666
+    second: proyectiles freezer_63
+  - first:
+      213: 1505285952378626973
+    second: proyectiles freezer_64
+  - first:
+      213: -8097129097989704662
+    second: proyectiles freezer_65
+  - first:
+      213: -8925588766085669958
+    second: proyectiles freezer_66
+  - first:
+      213: 53561981667124984
+    second: proyectiles freezer_67
+  - first:
+      213: 3658746684112747409
+    second: proyectiles freezer_68
+  - first:
+      213: 6975496764782872497
+    second: proyectiles freezer_69
+  - first:
+      213: -2148486896208640850
+    second: proyectiles freezer_70
+  - first:
+      213: -3981398974665446660
+    second: proyectiles freezer_71
+  - first:
+      213: -2093310006639366387
+    second: proyectiles freezer_72
+  - first:
+      213: 5676874225460168381
+    second: proyectiles freezer_73
+  - first:
+      213: 107117964395350810
+    second: proyectiles freezer_74
+  - first:
+      213: 178064369880286285
+    second: proyectiles freezer_75
+  - first:
+      213: 6558231176009778231
+    second: proyectiles freezer_76
+  - first:
+      213: 9148300317459878884
+    second: proyectiles freezer_77
+  - first:
+      213: 4961142534532370163
+    second: proyectiles freezer_78
+  - first:
+      213: 4165487547903006941
+    second: proyectiles freezer_79
+  - first:
+      213: 8394463265628254613
+    second: proyectiles freezer_80
+  - first:
+      213: -6408505984203956125
+    second: proyectiles freezer_81
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: proyectiles freezer_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 179
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df17c9bb90627020800000000000000
+      internalID: 2338037378511740885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectiles freezer_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 178
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81b65b98abebcef0800000000000000
+      internalID: -86716658410409590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectiles freezer_4
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 178
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b200ffaf0e8729100800000000000000
+      internalID: 113285848316706859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectiles freezer_5
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 178
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457e89aeff7b2edc0800000000000000
+      internalID: -3611121641417283756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectiles freezer_7
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 178
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec98e0a72580ce3f0800000000000000
+      internalID: -870311477661234738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectiles freezer_8
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 178
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c151ba58bb5edec0800000000000000
+      internalID: -3540291409712950848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectiles freezer_10
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 178
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf182d08326a1a810800000000000000
+      internalID: 1774882399576031740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectiles freezer_11
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 178
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8734f848744a310e0800000000000000
+      internalID: -2300314357582576776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 156
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600cd17b6be0ecc70800000000000000
+      internalID: 8993141683824476166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 156
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b40c2b12d3563870800000000000000
+      internalID: 8662203095157834929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 156
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec52bd347f77f4a0800000000000000
+      internalID: -6559634195013804825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 156
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a50405eb9385ff0800000000000000
+      internalID: -47224306534426003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 156
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16502096e3020f370800000000000000
+      internalID: 8354212761194071393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 157
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d546fdcc02520e280800000000000000
+      internalID: -9016165631189359523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 157
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699611f5cb3ed6d50800000000000000
+      internalID: 6732287416177093014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectiles freezer_24
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 157
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5e869aa802ba2b0800000000000000
+      internalID: -5572324334021057068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectiles freezer_27
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 138
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9e4043f7f905db0800000000000000
+      internalID: -4805165433721919028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectiles freezer_28
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 137
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a58fe383e1fddd0800000000000000
+      internalID: -2459213644597536109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectiles freezer_30
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 137
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2e1dedafacd5d70800000000000000
+      internalID: 9033599606404014821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectiles freezer_32
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 137
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0441c2ec5d53b46f0800000000000000
+      internalID: -699406124722678720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectiles freezer_34
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 137
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee463d981b3e0f40800000000000000
+      internalID: 5696555555573092072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectiles freezer_36
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 137
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163884d1d418ebdd0800000000000000
+      internalID: -2468393377548696735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectiles freezer_37
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 135
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae290d05f88ccdb0800000000000000
+      internalID: -4770287319225127249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proyectiles freezer_0
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 138
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186c8a454e08fc080800000000000000
+      internalID: -9164964998514424191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
