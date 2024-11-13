@@ -35,7 +35,7 @@ public class FollowAI : MonoBehaviour
 
     private void Attack()
     {
-        Debug.Log("Atacar");
+        //Debug.Log("Atacar");
     }
 
     private Transform GetClosestPlayer()

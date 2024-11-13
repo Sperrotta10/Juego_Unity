@@ -22,20 +22,17 @@ public class EnemyAnimation : MonoBehaviour
 
         // Establece el parámetro "Speed"
         animator.SetFloat("Speed", speed);
-        Debug.Log("Speed: " + speed); // Mensaje de depuración
 
         // Controla las direcciones de movimiento
         if (speed > 0.1f)
         {
             animator.SetFloat("moveX", velocity.x);
             animator.SetFloat("moveY", velocity.y);
-            Debug.Log("Moving: moveX = " + velocity.x + ", moveY = " + velocity.y); // Mensaje de depuración
         }
         else
         {
             animator.SetFloat("moveX", 0);
             animator.SetFloat("moveY", 0);
-            Debug.Log("Not Moving"); // Mensaje de depuración
         }
     }
 }
