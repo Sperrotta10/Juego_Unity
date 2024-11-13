@@ -8,10 +8,13 @@ public class ProjectileFreezer : MonoBehaviour
     private Transform targetPlayer; //Referencia al jugador objetivo
     private Rigidbody2D rb;
 
-    private void Start()
+    private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+    }
 
+    private void Start()
+    {
         if (targetPlayer != null)
         {
             LaunchProjectile();
@@ -31,8 +34,20 @@ public class ProjectileFreezer : MonoBehaviour
     private void LaunchProjectile()
     {
         Vector2 directionToPlayer = (targetPlayer.position - transform.position).normalized;
-        rb.velocity = directionToPlayer * speed;
+        SetDirection(directionToPlayer);
         StartCoroutine(DestroyProjectile());
+    }
+
+    // Método para establecer la dirección del proyectil y ajustar la rotación
+    private void SetDirection(Vector2 direction)
+    {
+        // Normaliza y ajusta la dirección
+        Vector2 moveDirection = direction.normalized;
+        rb.velocity = moveDirection * speed;
+
+        // Ajusta la rotación del proyectil según la dirección
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0, 0, angle);
     }
 
     private IEnumerator DestroyProjectile()
