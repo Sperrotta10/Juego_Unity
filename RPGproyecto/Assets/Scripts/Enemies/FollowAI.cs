@@ -1,56 +1,43 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class FollowAI : MonoBehaviour
 {
-    [SerializeField] private float speed;
-    [SerializeField] private float minDistance;
     [SerializeField] private Transform player1;
     [SerializeField] private Transform player2;
-    private bool isFacingRight = true;
+    private Transform targetPlayer;
 
-    // Update is called once per frame
     void Update()
     {
-
-        Transform closestPlayer = GetClosestPlayer();
-        
-        if (closestPlayer != null)
+        targetPlayer = GetClosestPlayer();
+        if (targetPlayer != null)
         {
-            //Mueve al enemigo hacia la posición del jugador más cercano
-            if (Vector2.Distance(transform.position, closestPlayer.position) > minDistance)
-            {
-                transform.position = Vector2.MoveTowards(transform.position, closestPlayer.position, speed * Time.deltaTime);
-            }
-            else
-            {
-                Attack();
-            }
-            
-            bool isPlayerRight = transform.position.x < closestPlayer.position.x;
-            //Flip(isPlayerRight);
+            //Lógica para mover el enemigo hacia el jugador objetivo
+            Vector2 direction = (targetPlayer.position - transform.position).normalized;
+            transform.position += (Vector3)direction * Time.deltaTime;
         }
-    }
-
-    private void Attack()
-    {
-        //Debug.Log("Atacar");
     }
 
     private Transform GetClosestPlayer()
     {
-        float distanceToPlayer1 = Vector2.Distance(transform.position, player1.position);
-        float distanceToPlayer2 = Vector2.Distance(transform.position, player2.position);
+        //Verifica que los jugadores aún existen
+        if (player1 == null && player2 == null) return null;
 
-        if (distanceToPlayer1 < distanceToPlayer2)
+        if (player1 != null && player2 != null)
+        {
+            float distanceToPlayer1 = Vector2.Distance(transform.position, player1.position);
+            float distanceToPlayer2 = Vector2.Distance(transform.position, player2.position);
+            return distanceToPlayer1 < distanceToPlayer2 ? player1 : player2;
+        }
+        else if (player1 != null)
         {
             return player1;
         }
-        else
+        else if (player2 != null)
         {
             return player2;
         }
+        
+        return null;
     }
 
     /*private void Flip(bool isPlayerRight)

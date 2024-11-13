@@ -6,8 +6,8 @@ public class ControlPlayer2 : MonoBehaviour
 {
     public float moveSpeed;
     public LayerMask solidObjectsLayer;
-    public GameObject kiBallPrefab; // Asigna aquí el prefab de la bola de ki
-    public float kiBallSpeed = 5f; // Velocidad de la bola de ki
+    public GameObject kiBallPrefab;
+    public float kiBallSpeed = 5f; //Velocidad de la bola de ki
 
     public enum PlayerState
     {
@@ -20,7 +20,7 @@ public class ControlPlayer2 : MonoBehaviour
     private Animator animator;
     private PlayerState currentState = PlayerState.walk;
 
-    // Direcciones de disparo
+    //Direcciones de disparo
     private Vector2 shootDirection;
 
     private void Awake()
@@ -41,13 +41,11 @@ public class ControlPlayer2 : MonoBehaviour
                 StartCoroutine(AttackCo());
             }
 
-            // Establece la dirección de movimiento y orientación
             if (input != Vector2.zero)
             {
                 animator.SetFloat("moveX", input.x);
                 animator.SetFloat("moveY", input.y);
 
-                // Establece la dirección de disparo según el movimiento
                 shootDirection = input.normalized;
 
                 var targetPos = transform.position;
@@ -59,7 +57,7 @@ public class ControlPlayer2 : MonoBehaviour
             }
         }
 
-        // Para la transición de caminata
+        //Para la transición de caminata
         animator.SetBool("isMoving", isMoving);
     }
 
@@ -68,10 +66,10 @@ public class ControlPlayer2 : MonoBehaviour
         animator.SetBool("attacking", true);
         currentState = PlayerState.attack2;
 
-         // Espera 0.1 segundos para que se complete la animación de apuntado
+         //Espera 0.1 segundos para que se complete la animación de apuntado
         yield return new WaitForSeconds(0.2f);
 
-        // Instancia la bola de ki y establece su dirección solo una vez
+        //Instancia la bola de ki y establece su dirección solo una vez
         ShootKiBall();
 
         yield return null;
@@ -82,10 +80,8 @@ public class ControlPlayer2 : MonoBehaviour
 
     private void ShootKiBall()
     {
-        // Crear la bola de ki en la posición actual y establecer su dirección
         Projectile kiBall = Instantiate(kiBallPrefab, transform.position, Quaternion.identity).GetComponent<Projectile>();
 
-        // Pasar la dirección en la que Android 18 está mirando
         Vector3 direction = new Vector3(animator.GetFloat("moveX"), animator.GetFloat("moveY"), 0);
         kiBall.SetDirection(direction);
     }
