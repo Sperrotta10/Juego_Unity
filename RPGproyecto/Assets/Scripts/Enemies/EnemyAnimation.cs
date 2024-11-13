@@ -1,9 +1,12 @@
 using UnityEngine;
+using System.Collections;
 
 public class EnemyAnimation : MonoBehaviour
 {
     private Vector2 previousPosition, newPosition;
     private Animator animator;
+    private bool isAttacking = false;
+    private float attackDuration = 2.0f;
 
     void Start()
     {
@@ -13,26 +16,44 @@ public class EnemyAnimation : MonoBehaviour
 
     void Update()
     {
-        newPosition = transform.position;
-        Vector2 velocity = (newPosition - previousPosition) / Time.deltaTime;
-        previousPosition = newPosition;
-
-        // Calcula la magnitud de la velocidad
-        float speed = velocity.magnitude;
-
-        // Establece el parámetro "Speed"
-        animator.SetFloat("Speed", speed);
-
-        // Controla las direcciones de movimiento
-        if (speed > 0.1f)
+        if (!isAttacking)
         {
-            animator.SetFloat("moveX", velocity.x);
-            animator.SetFloat("moveY", velocity.y);
+            newPosition = transform.position;
+            Vector2 velocity = (newPosition - previousPosition) / Time.deltaTime;
+            previousPosition = newPosition;
+
+            //Calculate and set speed
+            float speed = velocity.magnitude;
+            animator.SetFloat("Speed", speed);
+
+            //Set direction parameters
+            if (speed > 0.1f)
+            {
+                animator.SetFloat("moveX", velocity.x);
+                animator.SetFloat("moveY", velocity.y);
+            }
+            else
+            {
+                animator.SetFloat("moveX", 0);
+                animator.SetFloat("moveY", 0);
+            }
         }
-        else
+    }
+
+    public void TriggerAttack()
+    {
+        if (!isAttacking)
         {
-            animator.SetFloat("moveX", 0);
-            animator.SetFloat("moveY", 0);
+            isAttacking = true;
+            animator.SetBool("IsAttacking", true);
+            StartCoroutine(EndAttack());
         }
+    }
+
+    private IEnumerator EndAttack()
+    {
+        yield return new WaitForSeconds(attackDuration);
+        animator.SetBool("IsAttacking", false);
+        isAttacking = false;
     }
 }
