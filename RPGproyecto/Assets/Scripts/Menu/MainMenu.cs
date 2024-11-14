@@ -10,21 +10,21 @@ public class MainMenu : MonoBehaviour
     public void OnEasyButtonPressed()
     {
         // Cargar la escena del nivel fácil
-        SceneManager.LoadScene("nivel_easy");
+        SceneManager.LoadScene("ciudad");
     }
 
     // Método que se llamará cuando se presione el botón "Medium"
     public void OnMediumButtonPressed()
     {
         // Cargar la escena del nivel medio
-        SceneManager.LoadScene("nivel_medium");
+        SceneManager.LoadScene("ciudad1");
     }
 
     // Método que se llamará cuando se presione el botón "Hard"
     public void OnHardButtonPressed()
     {
         // Cargar la escena del nivel difícil
-        SceneManager.LoadScene("nivel_hard");
+        SceneManager.LoadScene("ciudad2");
     }
 
     // Método que se llamará cuando se presione el botón "salir"

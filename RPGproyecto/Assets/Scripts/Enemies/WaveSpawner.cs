@@ -7,6 +7,7 @@ public class WaveSpawner : MonoBehaviour
     public GameObject enemyPrefab; // Prefab del enemigo
     public int enemiesPerWave = 10; // Número de enemigos por oleada
     public float timeBetweenWaves = 3f; // Tiempo entre oleadas
+    public int oleadas = 2; // numero de oleadas
     private float countdown; // Temporizador entre oleadas
     public Transform spawnLocation; // Ubicación de aparición
     private int currentWave = 0; // Oleada actual
@@ -66,7 +67,7 @@ public class WaveSpawner : MonoBehaviour
         RemoveDeadEnemies();
 
         // Si no hay enemigos vivos y aún no hemos alcanzado el máximo de oleadas
-        if (spawnedEnemies.Count == 0 && currentWave < 1) 
+        if (spawnedEnemies.Count == 0 && currentWave < oleadas) 
         {
             countdown -= Time.deltaTime; // Resta tiempo al contador
             if (countdown <= 0f) // Si el contador llegó a 0, se genera una nueva oleada
@@ -97,7 +98,7 @@ public class WaveSpawner : MonoBehaviour
         }
 
         // Cuando todos los enemigos de la oleada actual han muerto
-        if (currentWave >= 1 && spawnedEnemies.Count == 0)
+        if (currentWave >= oleadas && spawnedEnemies.Count == 0)
         {
             Debug.Log("¡Todas las oleadas completadas!");
             ShowWinScreen();
