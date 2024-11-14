@@ -12,9 +12,51 @@ public class WaveSpawner : MonoBehaviour
     private int currentWave = 0; // Oleada actual
     private List<GameObject> spawnedEnemies = new List<GameObject>(); // Lista de enemigos generados
 
+    public GameObject winCanvas; // Referencia al Canvas de victoria
+    [SerializeField] private AudioClip musicaVictoria; // Música de derrota
+    private AudioSource audioSource; // El componente AudioSource
+
+    // Referencia al AudioSource de la música general del juego
+    public GameObject controladorDeJuego; // Referencia al GameObject que controla la música general
+    private AudioSource audioSourceJuego; // AudioSource del controlador de música
+
+    // Volúmenes para las diferentes músicas
+    [SerializeField, Range(0f, 1f)] private float volumenVictoria = 0.5f; // Volumen para la música de victoria
+
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+
         countdown = timeBetweenWaves; // Inicia el contador con el tiempo entre oleadas
+
+        if (winCanvas != null)
+        {
+            winCanvas.SetActive(false); // Asegura que el Canvas de victoria esté oculto al principio
+        }
+
+        // Obtener el AudioSource del controlador del juego
+        if (controladorDeJuego != null)
+        {
+            audioSourceJuego = controladorDeJuego.GetComponent<AudioSource>();
+        }
+        else
+        {
+            Debug.LogError("No se encontró el GameObject del controlador de música.");
+        }
+
+        // Asegurarse de que haya un AudioSource en el GameObject
+        if (audioSourceJuego == null)
+        {
+            Debug.LogError("No se encuentra un AudioSource en el controlador del juego.");
+            return;
+        }
+
+        // Reproducir la música de fondo del juego si no está sonando
+        if (!audioSourceJuego.isPlaying)
+        {
+            audioSourceJuego.Play();
+        }
+
     }
 
     void Update()
@@ -22,10 +64,9 @@ public class WaveSpawner : MonoBehaviour
 
         // Eliminar enemigos muertos de la lista
         RemoveDeadEnemies();
-        
+
         // Si no hay enemigos vivos y aún no hemos alcanzado el máximo de oleadas
-        Debug.Log(spawnedEnemies.Count);
-        if (spawnedEnemies.Count == 0 && currentWave < 5) 
+        if (spawnedEnemies.Count == 0 && currentWave < 1) 
         {
             countdown -= Time.deltaTime; // Resta tiempo al contador
             if (countdown <= 0f) // Si el contador llegó a 0, se genera una nueva oleada
@@ -34,6 +75,7 @@ public class WaveSpawner : MonoBehaviour
                 countdown = timeBetweenWaves; // Reinicia el contador para la próxima oleada
             }
         }
+
     }
 
     IEnumerator SpawnWave()
@@ -55,9 +97,10 @@ public class WaveSpawner : MonoBehaviour
         }
 
         // Cuando todos los enemigos de la oleada actual han muerto
-        if (currentWave >= 5)
+        if (currentWave >= 1 && spawnedEnemies.Count == 0)
         {
             Debug.Log("¡Todas las oleadas completadas!");
+            ShowWinScreen();
         }
     }
 
@@ -79,6 +122,37 @@ public class WaveSpawner : MonoBehaviour
             {
                 spawnedEnemies.RemoveAt(i); // Elimina al enemigo de la lista
             }
+        }
+    }
+
+    // Función para mostrar la pantalla de victoria
+    void ShowWinScreen()
+    {
+
+        // Detener la música del juego y reproducir la música de victoria
+        if (audioSourceJuego != null && audioSourceJuego.isPlaying)
+        {
+            audioSourceJuego.Pause(); // Pausa la música general del juego
+        }
+
+        ReproducirMusicaVictoria();
+
+        if (winCanvas != null)
+        {
+            winCanvas.SetActive(true); // Muestra el Canvas de victoria
+        }
+    }
+
+    // Método para reproducir la música de derrota
+    private void ReproducirMusicaVictoria()
+    {
+        Debug.Log("VICTORIA");
+        if (musicaVictoria != null)
+        {
+            audioSource.clip = musicaVictoria;
+            audioSource.loop = false;
+            audioSource.volume = volumenVictoria; // Establecer el volumen de la música de victoria
+            audioSource.Play();
         }
     }
 }
