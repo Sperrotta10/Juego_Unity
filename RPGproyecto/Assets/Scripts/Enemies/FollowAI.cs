@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
 
 public class FollowAI : MonoBehaviour
 {
@@ -6,12 +9,22 @@ public class FollowAI : MonoBehaviour
     [SerializeField] private Transform player2;
     private Transform targetPlayer;
 
+    void Start()
+    {
+        // Asigna los jugadores si no se han asignado en el Inspector
+        if (player1 == null)
+            player1 = GameObject.Find("Player 1")?.transform;
+
+        if (player2 == null)
+            player2 = GameObject.Find("Player 2")?.transform;
+    }
+
     void Update()
     {
         targetPlayer = GetClosestPlayer();
         if (targetPlayer != null)
         {
-            //Lógica para mover el enemigo hacia el jugador objetivo
+            // Lógica para mover el enemigo hacia el jugador objetivo
             Vector2 direction = (targetPlayer.position - transform.position).normalized;
             transform.position += (Vector3)direction * Time.deltaTime;
         }
@@ -19,7 +32,7 @@ public class FollowAI : MonoBehaviour
 
     private Transform GetClosestPlayer()
     {
-        //Verifica que los jugadores aún existen
+        // Verifica que los jugadores aún existen
         if (player1 == null && player2 == null) return null;
 
         if (player1 != null && player2 != null)
@@ -36,9 +49,10 @@ public class FollowAI : MonoBehaviour
         {
             return player2;
         }
-        
+
         return null;
     }
+
 
     /*private void Flip(bool isPlayerRight)
     {

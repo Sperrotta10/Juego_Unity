@@ -52,6 +52,7 @@ public class Estadisticas : MonoBehaviour
                 audioSource.Play();
             }
             Destroy(gameObject,0.1f);
+            Destroy(explosion, 1f); // 1 segundo es suficiente para que la explosión dure un poco
         }
 
     }

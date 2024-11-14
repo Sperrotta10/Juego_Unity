@@ -4,20 +4,35 @@ using UnityEngine;
 
 public class WaveSpawner : MonoBehaviour
 {
-    public GameObject enemyPrefab;
-    public int enemiesPerWave = 10;
-    public float timeBetweenWaves = 3f;
-    private float countdown = 2f;
-    public Transform spawnLocation;
-    private int currentWave = 0; //Oleada actual
-    private List<GameObject> spawnedEnemies = new List<GameObject>(); //Lista de enemigos instanciados
+    public GameObject enemyPrefab; // Prefab del enemigo
+    public int enemiesPerWave = 10; // Número de enemigos por oleada
+    public float timeBetweenWaves = 3f; // Tiempo entre oleadas
+    private float countdown; // Temporizador entre oleadas
+    public Transform spawnLocation; // Ubicación de aparición
+    private int currentWave = 0; // Oleada actual
+    private List<GameObject> spawnedEnemies = new List<GameObject>(); // Lista de enemigos generados
+
+    void Start()
+    {
+        countdown = timeBetweenWaves; // Inicia el contador con el tiempo entre oleadas
+    }
 
     void Update()
     {
-        // Verifica si hay enemigos vivos
-        if (spawnedEnemies.Count == 0 && currentWave < 5) //Solo genera una nueva oleada si no hay enemigos y no se ha alcanzado el límite de oleadas
+
+        // Eliminar enemigos muertos de la lista
+        RemoveDeadEnemies();
+        
+        // Si no hay enemigos vivos y aún no hemos alcanzado el máximo de oleadas
+        Debug.Log(spawnedEnemies.Count);
+        if (spawnedEnemies.Count == 0 && currentWave < 5) 
         {
-            StartCoroutine(SpawnWave());
+            countdown -= Time.deltaTime; // Resta tiempo al contador
+            if (countdown <= 0f) // Si el contador llegó a 0, se genera una nueva oleada
+            {
+                StartCoroutine(SpawnWave());
+                countdown = timeBetweenWaves; // Reinicia el contador para la próxima oleada
+            }
         }
     }
 
@@ -26,41 +41,44 @@ public class WaveSpawner : MonoBehaviour
         currentWave++; // Incrementa la oleada actual
         Debug.Log("Iniciando Oleada " + currentWave);
 
+        // Genera los enemigos de esta oleada
         for (int i = 0; i < enemiesPerWave; i++)
         {
             SpawnEnemy();
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(1f); // Espera 1 segundo entre la creación de enemigos
         }
 
-        
+        // Espera hasta que todos los enemigos hayan muerto antes de proceder
         while (spawnedEnemies.Count > 0)
         {
             yield return null;
         }
 
-        
+        // Cuando todos los enemigos de la oleada actual han muerto
         if (currentWave >= 5)
         {
             Debug.Log("¡Todas las oleadas completadas!");
-            
         }
     }
 
     void SpawnEnemy()
     {
+        // Define la posición de aparición aleatoria dentro de un rango de 2 unidades desde el punto de spawn
         Vector2 spawnPosition = (Vector2)spawnLocation.position + Random.insideUnitCircle * 2f; 
-        GameObject enemy = Instantiate(enemyPrefab, spawnPosition, Quaternion.identity); 
-        spawnedEnemies.Add(enemy);
-        
-        Enemy enemyScript = enemy.GetComponent<Enemy>();
-        if (enemyScript != null)
-        {
-            enemyScript.OnDeath += HandleEnemyDeath;
-        }
+        GameObject enemy = Instantiate(enemyPrefab, spawnPosition, Quaternion.identity); // Crea el enemigo
+        spawnedEnemies.Add(enemy); // Lo agrega a la lista de enemigos generados
+
     }
 
-    void HandleEnemyDeath(GameObject enemy)
+    void RemoveDeadEnemies()
     {
-        spawnedEnemies.Remove(enemy);
+        // Recorre la lista de enemigos y elimina a los que ya han sido destruidos
+        for (int i = spawnedEnemies.Count - 1; i >= 0; i--)
+        {
+            if (spawnedEnemies[i] == null) // Si el GameObject del enemigo ha sido destruido
+            {
+                spawnedEnemies.RemoveAt(i); // Elimina al enemigo de la lista
+            }
+        }
     }
 }

@@ -12,6 +12,13 @@ public class ShootAI : MonoBehaviour
 
     private void Start()
     {
+        // Asigna los jugadores si no se han asignado en el Inspector
+        if (player1 == null)
+            player1 = GameObject.Find("Player 1")?.transform;
+
+        if (player2 == null)
+            player2 = GameObject.Find("Player 2")?.transform;
+
         StartCoroutine(Shoot());
     }
 
@@ -50,7 +57,7 @@ public class ShootAI : MonoBehaviour
         {
             return player2;
         }
-        
+
         return null;
     }
 
@@ -66,4 +73,3 @@ public class ShootAI : MonoBehaviour
         }
     }
 }
-
