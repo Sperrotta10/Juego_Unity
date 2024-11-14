@@ -46,4 +46,11 @@ public class menu_pausa : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+    // Función para regresar al menú principal
+    public void LoadMainMenu()
+    {
+        Time.timeScale = 1f; // Asegúrate de que el juego esté corriendo
+        SceneManager.LoadScene("Menu_game"); // Cambia "MainMenu" por el nombre de tu escena principal
+    }
 }
