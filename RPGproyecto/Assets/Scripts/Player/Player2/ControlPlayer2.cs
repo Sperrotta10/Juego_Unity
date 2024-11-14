@@ -5,8 +5,9 @@ using UnityEngine;
 public class ControlPlayer2 : MonoBehaviour
 {
     public float moveSpeed;
-
     public LayerMask solidObjectsLayer;
+    public GameObject kiBallPrefab;
+    public float kiBallSpeed = 5f; //Velocidad de la bola de ki
 
     public enum PlayerState
     {
@@ -15,56 +16,48 @@ public class ControlPlayer2 : MonoBehaviour
     }
 
     private bool isMoving;
-
     private Vector2 input;
-
     private Animator animator;
+    private PlayerState currentState = PlayerState.walk;
 
-    private PlayerState currentState = PlayerState.walk; // currentState
+    //Direcciones de disparo
+    private Vector2 shootDirection;
 
-    //For the animations
     private void Awake()
     {
         animator = GetComponent<Animator>();
     }
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     private void Update()
     {
-        if(!isMoving)
+        if (!isMoving)
         {
             input.x = Input.GetAxisRaw("Horizontal2");
             input.y = Input.GetAxisRaw("Vertical2");
 
-            if (Input.GetButtonDown("attack2") && currentState != PlayerState.attack2) // Cambiar input.GetButtonDown por Input.GetButtonDown
+            // Si se presiona el botón de ataque
+            if (Input.GetButtonDown("attack2") && currentState != PlayerState.attack2)
             {
                 StartCoroutine(AttackCo());
             }
 
-            //If you can remove the diagonal movement
-            //if(input.x !=0) input.y = 0;
-
-            if(input != Vector2.zero)
+            if (input != Vector2.zero)
             {
-                animator.SetFloat("moveX",input.x);
-                animator.SetFloat("moveY",input.y);
+                animator.SetFloat("moveX", input.x);
+                animator.SetFloat("moveY", input.y);
+
+                shootDirection = input.normalized;
 
                 var targetPos = transform.position;
                 targetPos.x += input.x;
                 targetPos.y += input.y;
 
-                if(IsWalkable(targetPos))
+                if (IsWalkable(targetPos))
                     StartCoroutine(Move(targetPos));
             }
         }
 
-        //For the walk transitions
+        //Para la transición de caminata
         animator.SetBool("isMoving", isMoving);
     }
 
@@ -72,34 +65,42 @@ public class ControlPlayer2 : MonoBehaviour
     {
         animator.SetBool("attacking", true);
         currentState = PlayerState.attack2;
+
+         //Espera 0.1 segundos para que se complete la animación de apuntado
+        yield return new WaitForSeconds(0.2f);
+
+        //Instancia la bola de ki y establece su dirección solo una vez
+        ShootKiBall();
+
         yield return null;
         animator.SetBool("attacking", false);
         yield return new WaitForSeconds(.33f);
         currentState = PlayerState.walk;
     }
 
-    IEnumerator Move(Vector3 targetPos)
+    private void ShootKiBall()
+    {
+        Projectile kiBall = Instantiate(kiBallPrefab, transform.position, Quaternion.identity).GetComponent<Projectile>();
+
+        Vector3 direction = new Vector3(animator.GetFloat("moveX"), animator.GetFloat("moveY"), 0);
+        kiBall.SetDirection(direction);
+    }
+
+    private IEnumerator Move(Vector3 targetPos)
     {
         isMoving = true;
 
-        while((targetPos - transform.position).sqrMagnitude > Mathf.Epsilon)
+        while ((targetPos - transform.position).sqrMagnitude > Mathf.Epsilon)
         {
             transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
             yield return null;
         }
         transform.position = targetPos;
-
-        isMoving = false; 
+        isMoving = false;
     }
 
-    //Adding colisions
     private bool IsWalkable(Vector3 targetPos)
     {
-        if(Physics2D.OverlapCircle(targetPos,0.3f, solidObjectsLayer) != null)
-        {
-            return false;
-        }
-
-        return true;
+        return Physics2D.OverlapCircle(targetPos, 0.3f, solidObjectsLayer) == null;
     }
 }
