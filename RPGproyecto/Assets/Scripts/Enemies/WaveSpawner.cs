@@ -12,7 +12,9 @@ public class WaveSpawner : MonoBehaviour
     public Transform spawnLocation; // Ubicación de aparición
     private int currentWave = 0; // Oleada actual
     private List<GameObject> spawnedEnemies = new List<GameObject>(); // Lista de enemigos generados
+    private bool isFinished = false; // Indica si todas las oleadas han terminado
 
+    /*
     public GameObject winCanvas; // Referencia al Canvas de victoria
     [SerializeField] private AudioClip musicaVictoria; // Música de derrota
     private AudioSource audioSource; // El componente AudioSource
@@ -23,13 +25,15 @@ public class WaveSpawner : MonoBehaviour
 
     // Volúmenes para las diferentes músicas
     [SerializeField, Range(0f, 1f)] private float volumenVictoria = 0.5f; // Volumen para la música de victoria
+    */
 
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
+        //audioSource = GetComponent<AudioSource>();
 
         countdown = timeBetweenWaves; // Inicia el contador con el tiempo entre oleadas
 
+        /*
         if (winCanvas != null)
         {
             winCanvas.SetActive(false); // Asegura que el Canvas de victoria esté oculto al principio
@@ -57,6 +61,7 @@ public class WaveSpawner : MonoBehaviour
         {
             audioSourceJuego.Play();
         }
+        */
 
     }
 
@@ -72,12 +77,18 @@ public class WaveSpawner : MonoBehaviour
             countdown -= Time.deltaTime; // Resta tiempo al contador
             if (countdown <= 0f) // Si el contador llegó a 0, se genera una nueva oleada
             {
-                StartCoroutine(SpawnWave());
+                StartSpawning();
                 countdown = timeBetweenWaves; // Reinicia el contador para la próxima oleada
             }
         }
 
     }
+
+    public void StartSpawning()
+    {
+        StartCoroutine(SpawnWave());
+    }
+
 
     IEnumerator SpawnWave()
     {
@@ -97,12 +108,15 @@ public class WaveSpawner : MonoBehaviour
             yield return null;
         }
 
+        
         // Cuando todos los enemigos de la oleada actual han muerto
         if (currentWave >= oleadas && spawnedEnemies.Count == 0)
         {
+            isFinished = true;
             Debug.Log("¡Todas las oleadas completadas!");
-            ShowWinScreen();
+            //ShowWinScreen();
         }
+        
     }
 
     void SpawnEnemy()
@@ -126,6 +140,8 @@ public class WaveSpawner : MonoBehaviour
         }
     }
 
+
+    /*
     // Función para mostrar la pantalla de victoria
     void ShowWinScreen()
     {
@@ -155,5 +171,12 @@ public class WaveSpawner : MonoBehaviour
             audioSource.volume = volumenVictoria; // Establecer el volumen de la música de victoria
             audioSource.Play();
         }
+    }
+    */
+
+    // Método para saber si todas las oleadas han terminado
+    public bool IsFinished()
+    {
+        return isFinished;
     }
 }
