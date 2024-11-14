@@ -5,6 +5,7 @@ using UnityEngine;
 public class ProjectileFreezer : MonoBehaviour
 {
     [SerializeField] private float speed;
+    [SerializeField] private float damage;
     private Transform targetPlayer; //Referencia al jugador objetivo
     private Rigidbody2D rb;
 
@@ -60,5 +61,13 @@ public class ProjectileFreezer : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Destroy(gameObject);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision){
+        if (collision.gameObject.CompareTag("Player")){
+            Debug.Log("Hola");
+            collision.GetComponent<Estadisticas>().GetDamage(damage);
+            Destroy(gameObject); // Destruimos la bola de ki después de impactar
+        }
     }
 }

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 22f;
+    [SerializeField] private float damage;
     private Vector3 moveDirection = Vector3.right; // Dirección por defecto
 
     private Rigidbody2D rb;
@@ -34,5 +35,12 @@ public class Projectile : MonoBehaviour
     private void Update()
     {
         // Ya no es necesario mover el proyectil aquí
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision){
+        if (collision.gameObject.CompareTag("enemy")){
+            collision.GetComponent<Estadisticas>().GetDamage(damage);
+            Destroy(gameObject); // Destruimos la bola de ki después de impactar
+        }
     }
 }

@@ -10,6 +10,10 @@ public class Estadisticas : MonoBehaviour
     private float health;
     private SpriteRenderer spriteRenderer;
 
+    // Variables de control de daño
+    private float tiempoDeDaño = 0f;
+    private float tiempoMaximoDeDaño = 0.1f; // Duración del efecto de cambio de color
+
     private void Start(){
 
         health = maxHealth;
@@ -19,22 +23,21 @@ public class Estadisticas : MonoBehaviour
     }
 
     // esto es un evento de click para el box colider, es provisional para ver como funciona el damage y barra de vida de los jugadores
+    /*
     private void OnMouseDown(){
         StartCoroutine(GetDamage());
     }
+    */
 
-    IEnumerator GetDamage(){
+    public void GetDamage(float damage){
 
-        float damageDuration = 0.1f;
-        float damage = Random.Range(1f,5f);
         health -= damage;
         healthbar.UpdateHealthbar(maxHealth,health);
 
         if(health > 0) {
 
             spriteRenderer.color = Color.red;
-            yield return new WaitForSeconds(damageDuration);
-            spriteRenderer.color = Color.white;
+            tiempoDeDaño = tiempoMaximoDeDaño;
 
         } else {
             // Cambia el estado a muerto
@@ -51,5 +54,20 @@ public class Estadisticas : MonoBehaviour
             Destroy(gameObject,0.1f);
         }
 
+    }
+
+    private void Update()
+    {
+        // Si el tiempo de daño es mayor que 0, descontamos el tiempo
+        if (tiempoDeDaño > 0)
+        {
+            tiempoDeDaño -= Time.deltaTime; // Resta el tiempo transcurrido
+
+            // Si el tiempo se ha agotado, restauramos el color
+            if (tiempoDeDaño <= 0)
+            {
+                spriteRenderer.color = Color.white; // Restaurar color original
+            }
+        }
     }
 }
