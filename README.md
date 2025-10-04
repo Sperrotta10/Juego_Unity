@@ -29,10 +29,10 @@ El juego consiste en un **modo supervivencia por oleadas**, en el que dos person
 
 <div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px;">
   <img src="image/Home.png" width="350" />
-  <img src="image/Rules.png" width="250" />
-  <img src="image/Options.png" width="250" />
-  <img src="image/Dificulty.png" width="250" />
-  <img src="image/Game.png" width="250" />
+  <img src="image/Rules.png" width="350" />
+  <img src="image/Options.png" width="350" />
+  <img src="image/Dificulty.png" width="350" />
+  <img src="image/Game.png" width="350" />
 </div>
 
 ---
