@@ -27,15 +27,15 @@ El juego consiste en un **modo supervivencia por oleadas**, en el que dos person
 
 ## 🖼️ Capturas de pantalla
 
-### Carrusel de imágenes *(simulado en Markdown)*
+### Carrusel de imágenes
 
-<p align="center">
+<div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px;">
   <img src="image/Home.png" width="250" />
   <img src="image/Rules.png" width="250" />
   <img src="image/Options.png" width="250" />
   <img src="image/Dificulty.png" width="250" />
   <img src="image/Game.png" width="250" />
-</p>
+</div>
 
 ---
 
@@ -92,5 +92,3 @@ El juego consiste en un **modo supervivencia por oleadas**, en el que dos person
 
 Este proyecto se distribuye únicamente con fines **académicos**.
 No está destinado para distribución comercial ni para obtener ganancias.
-
---
