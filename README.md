@@ -30,9 +30,11 @@ El juego consiste en un **modo supervivencia por oleadas**, en el que dos person
 ### Carrusel de imágenes *(simulado en Markdown)*
 
 <p align="center">
-  <img src="ruta/imagen1.png" width="250" />
-  <img src="ruta/imagen2.png" width="250" />
-  <img src="ruta/imagen3.png" width="250" />
+  <img src="image/Home.png" width="250" />
+  <img src="image/Rules.png" width="250" />
+  <img src="image/Options.png" width="250" />
+  <img src="image/Dificulty.png" width="250" />
+  <img src="image/Game.png" width="250" />
 </p>
 
 ---
