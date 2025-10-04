@@ -27,7 +27,7 @@ El juego consiste en un **modo supervivencia por oleadas**, en el que dos person
 
 ## 🖼️ Capturas de pantalla
 
-<div style="justify-content: center gap: 10px; padding: 10px;">
+<div style="justify-content: center; gap: 10px; padding: 10px;">
   <img src="image/Home.png" width="350" />
   <img src="image/Rules.png" width="350" />
   <img src="image/Options.png" width="350" />
